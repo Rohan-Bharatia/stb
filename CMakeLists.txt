@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.12)
 project(stb)
 
 file(GLOB stb_SOURCES
-    ${PROJECT_SOURCE_DIR}/stb.cpp
+    ${PROJECT_SOURCE_DIR}/*.cpp
 )
 
 add_library(stb STATIC ${stb_SOURCES})
